@@ -1,12 +1,15 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 import "./App.css"
 
-class ListItem extends Component {
+export default class ListItem extends Component {
     render(){
         return(
-            <li>{this.props.task}</li>
+            <>
+            <li>
+                {this.props.task}
+            </li>
+            </>
         )
     }
 }
 
-export default ListItem

@@ -10,7 +10,7 @@ ReactDOM.render(
   document.getElementById("root")
 )
 
-
+//  ------ should have changed App to MyList---------
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // import './index.css';

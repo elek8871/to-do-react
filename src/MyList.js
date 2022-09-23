@@ -2,12 +2,13 @@ import React, { Component } from "react"
 import "./App.css"
 import ListItem from "./ListItem"
 
-class MyList extends Component{
+export default class MyList extends Component{
   render(){
+    // map over props
     let todoItems = this.props.theList.map((item,index)=>{
       return <ListItem 
        task={item} 
-       key={index}
+       key={`task-${index}`}
         />
     })
     return(
@@ -22,4 +23,4 @@ class MyList extends Component{
 }
 
 
-export default MyList
+
